@@ -1,0 +1,19 @@
+{
+  "name": "swipe-sharing",
+  "version": "1.0.0",
+  "description": "NEU web app for sharing dorm swipes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gdenmark/Swipe-sharing.git"
+  },
+  "author": "Jake Mayeux & Grant Denmark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdenmark/Swipe-sharing/issues"
+  },
+  "homepage": "https://github.com/gdenmark/Swipe-sharing#readme"
+}
