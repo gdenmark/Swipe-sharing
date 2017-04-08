@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Swipe-sharing</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<div class="container" id=login-view>
-</div>
-<div class="container" id=main-view>
-</div>
-<body>
-  <h2>Utilities</h2>
-  <ul>
-    <li>Previously swiped in people</li>
-    <li>Available Swipers</li>
-    <li>about us</li>
-  </ul>
+	<head>
+		<title>Swipe-sharing</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src=main.js></script>
+	</head>
+	<body>
+		<!-- facebook SDK -->
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=913782388761480";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
+		<div class="container" id=login-view>
+			<div id="fb-root"></div>
+			<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="true" data-auto-logout-link="false"></div>
+		</div>
 
+		<div class="container" id=main-view>
+			<h2>Utilities</h2>
+				<ul>
+					<li>Previously swiped in people</li>
+					<li>Available Swipers</li>
+					<li>about us</li>
+				</ul>
 
-
-
-  <h1>Swipe-Sharing</h1>
-  <h3>Share your swipes with friends to avoid the hastle!</h3>
-  <p>Out of swipes?
-       Not a problem! This website is designed for swipeless students who are interested in signing in more people into their residence halls.</p>
-  </p>
-  <video width= "320" height="240"
-    controls>
-    <source src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/ollie.mp4"
-type="video/mp4">
-
-</div>
-</body>
-
+			<h1>Swipe-Sharing</h1>
+			<h3>Share your swipes with friends to avoid the hastle!</h3>
+			<p>Out of swipes? Not a problem! This website is designed for swipeless students who are interested in signing in more people into their residence halls.</p>
+		</div>
+	</body>
 </html>
