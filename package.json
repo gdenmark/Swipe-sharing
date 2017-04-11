@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gdenmark/Swipe-sharing#readme",
   "dependencies": {
+    "express": "^4.15.2",
     "nedb": "^1.8.0"
   }
 }
