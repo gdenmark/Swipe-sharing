@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gdenmark/Swipe-sharing/issues"
   },
-  "homepage": "https://github.com/gdenmark/Swipe-sharing#readme"
+  "homepage": "https://github.com/gdenmark/Swipe-sharing#readme",
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
 }
