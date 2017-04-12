@@ -1,0 +1,40 @@
+Hastings Hall
+Kerr Hall
+Light Hall
+Melvin Hall
+Smith Hall
+Speare Hall
+Stetson East
+Stetson West
+White Hall
+153 Hemenway Street
+Kennedy Hall
+International Village
+East Village
+10 Coventry
+106 St. Stephen Street
+110 St. Stephen Street
+116 St. Stephen Street
+122 St. Stephen Street
+331 Huntington Avenue
+309 Huntington Avenue
+311 Huntington Avenue
+313 Huntington Avenue
+315 Huntington Avenue
+319 Huntington Ave
+337 Huntington Ave
+407 Huntington Ave*
+780 Columbus Ave
+Burstein Hall
+Davenport Commons A
+Davenport Commons B
+East Village
+Loftman Hall
+Rubenstein Hall
+West Village A
+West Village B
+West Village C
+West Village E
+West Village F
+West Village G
+Willis Hall
