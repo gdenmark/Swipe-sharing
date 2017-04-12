@@ -4,11 +4,13 @@
 		<title>Swipe-sharing</title>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="/socket.io/socket.io.js"></script>
 		<script src=main.js></script>
 	</head>
 	<body>
+			<i class="material-icons">face</i>
 		<!-- facebook SDK -->
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
@@ -42,5 +44,10 @@
 			<p>Out of swipes? Not a problem! This website is designed for swipeless students who are interested in signing in more people into their residence halls.</p>
 
 		</div>
+    <form action="">
+  <input type="radio" name="gender" value="IV"> International Village<br>
+  <input type="radio" name="gender" value="Willis"> Willis Hall<br>
+  <input type="radio" name="gender" value="EV"> East Village
+    </form>
 	</body>
 </html>
